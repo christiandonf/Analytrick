@@ -1,0 +1,58 @@
+:root {
+  --color-background-Light: #f5f8fa;
+  --color-background-Dark: #202124;
+
+  --color-Primary-Light: #ffffff;
+  --color-Primary-Dark: #41444a;
+
+  --color-Accent: #00bf63;
+  --color-Accent-darker: #07a65a;
+}
+
+.Destacado {
+  color: var(--color-Accent);
+}
+
+.container {
+  max-width: 80rem;
+  align-items: center;
+  margin: 0 auto;
+  place-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-background-Light);
+  width: 100%;
+  height: 100%;
+}
+
+.sessao {
+  background-color: var(--color-Primary-Light);
+  border-radius: 28px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  padding: 20px 20px;
+}
+.tituloprincipal {
+  margin-bottom: 25px;
+  font-size: larger;
+  color: var(--color-Accent);
+}
+
+.subtitulo {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+.texto {
+  font-size: medium;
+  margin-bottom: 15px;
+}

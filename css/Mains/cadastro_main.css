@@ -1,0 +1,160 @@
+:root {
+  --color-background-Light: #f5f8fa;
+  --color-background-Dark: #202124;
+
+  --color-Primary-Light: #ffffff;
+  --color-Primary-Dark: #41444a;
+
+  --color-Accent: #00bf63;
+  --color-Accent-darker: #07a65a;
+}
+
+.Destacado {
+  color: var(--color-Accent);
+}
+
+.margintop {
+  margin-top: 20px;
+}
+
+.marginbottom {
+  margin-bottom: 20px;
+}
+
+.alignitems {
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-background-Light);
+  width: 100%;
+  height: 100%;
+}
+
+#Dashboard_img {
+  display: block;
+
+  max-width: 100%;
+}
+
+#logo_icon {
+  display: block;
+  margin: 0 auto 50px auto;
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.full_register {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  width: 90%;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.register_area {
+  justify-content: center;
+  max-width: 1000px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--color-Primary-Light);
+  border-radius: 28px;
+  padding: 20px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.register_inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Inputbox {
+  outline: none;
+
+  height: 50px;
+  max-width: 400px;
+  width: 80%;
+  border-radius: 8px;
+  padding-left: 10px;
+  box-sizing: 1px;
+  margin-top: 40px;
+
+  border: 1px solid var(--color-Accent);
+  background-color: var(--color-background-Light);
+}
+
+.Button {
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+
+  line-height: 35px;
+  max-width: 300px;
+  width: 80%;
+  border-radius: 28px;
+  cursor: pointer;
+
+  color: #333;
+  background-color: var(--color-Accent);
+  transition: background-color 0.3s ease;
+}
+
+.Button:hover {
+  background-color: var(--color-Accent-darker);
+}
+
+.left_decoration {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.passos_register {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  font-size: 24px;
+  color: var(--color-Accent);
+}
+
+.texto {
+  width: 350px;
+  max-width: 100%;
+  font-size: 20px;
+  text-align: left;
+}
+
+@media screen and (max-width: 1300px) {
+  .full_register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    max-width: 1500px;
+  }
+
+  .Inputbox {
+    max-width: 500px;
+  }
+}
